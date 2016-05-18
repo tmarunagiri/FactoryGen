@@ -1,0 +1,88 @@
+{
+  "dentalClaimBasicInfo": {
+    "serviceAuthIndicator": null,
+    "voidReplacementIndicator": null,
+    "submitterID": "MAHESH3",
+    "claimResubmissionInformation": {
+      "resubmissionTypeCode": null,
+      "tcnToVoidReplace": null    },
+    "providerInformation": {
+      "nationalProviderId": null,
+      "atypicalId": null,
+      "taxonomyCode": null,
+      "taxId": null,
+      "ssn": "123456789",
+      "additionalBillingProviderInformation": {
+        "currencyCode": "c1",
+        "entityQualifier": "2",
+        "payToAddressIndicator": false,
+        "renderingProviderIndicator": false,
+        "name": {
+          "firstName": "df",
+          "lastName": "df",
+          "mi": "df",
+          "prefix": null,
+          "suffix": null        },
+        "address": {
+          "addressLine1": "df",
+          "addressLine2": "df",
+          "city": "sds",
+          "state": "AL",
+          "zip": "12345",
+          "plusFour": "1234",
+          "country": "CCC",
+          "subdivisionCode": "222"        },
+        "secondaryIds": {
+          "stateLiscenceNumber": "3",
+          "upinNumber": "3",
+          "commercialNumber": null,
+          "locationNumber": null        },
+        "contact1": {
+          "name": "mahesh",
+          "phone": "1234512345",
+          "extension": "12345",
+          "fax": "1234512345",
+          "email": "mahi@gmail.com"        },
+        "contact2": {
+          "name": "guntuka",
+          "phone": "1234512345",
+          "extension": "12345",
+          "fax": "1234512345",
+          "email": "mahi@yahoo.com"        },
+        "paytoAddress": {
+          "entityQalifier": "2",
+          "address": {
+            "addressLine1": "as",
+            "addressLine2": "as",
+            "city": "as",
+            "state": "AL",
+            "zip": "12345",
+            "plusFour": "1234",
+            "country": "FFF",
+            "subdivisionCode": "222"          }        },
+        "renderingProvider": {
+          "providerIdVO": {
+            "medicaidProviderID": "3",
+            "nationalProviderID": "3",
+            "taxnomyCode": "33",
+            "locationNumber": null          },
+          "additionalProviderInfo": {
+            "entityQualifier": "2",
+            "name": {
+              "firstName": "df",
+              "lastName": "dff",
+              "mi": "df",
+              "prefix": null,
+              "suffix": "MD"            },
+            "secondaryIds": {
+              "stateLiscenceNumber": "3",
+              "upinNumber": "33",
+              "commercialNumber": null,
+              "locationNumber": null
+            }
+          }
+        }
+      }
+    }
+  }
+}

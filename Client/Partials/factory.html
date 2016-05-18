@@ -1,0 +1,49 @@
+  <div id=" container" >
+          <header>
+              <div id='logo'>
+              Angular Factory
+              </div>
+    
+          </header>
+            <div id="content">
+                
+            <section id="contentLeft">
+                <div id="cLeft">
+                <label for="txtjson" >Select the Json File</label>
+                <input type="text" id="txtjson" placeholder="JSON File" ng-model="txtfile">
+                <input type="button" value="..." id="btnJson" ng-click="readFile()">
+                <input type="file" id="fileJson" fileread="uploadme" filename="txtfile" >
+                </div>
+                <div id="cLeft">
+                <label for="txtoutput" >Select Output Foler</label>
+                <input type="text" id="txtoutput" placeholder="Output Folder">
+                <input type="button" value="..." id="btnJson">
+                <input type="file" id="fileoutput">
+                <a href="\Server\factory\angularFactories.zip" id="genFile"  download >Angular Factories</a>
+                </div>
+                <div id="cProgress">
+                    <div class="progress" id="pbar">
+                      <div  class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+                        
+                      </div>
+                    </div>
+                </div>
+                <div id="cbuttons">
+                    <button type="button"  class="btn btn-primary" ng-click="populate()">Create Json Tree</button>
+                    <button type="button"  class="btn btn-primary" ng-click="createFactories()">Create Angular Factories</button>
+                    <button type="button"  class="btn btn-primary" ng-click="close()">Close</button>
+                </div>
+             
+            </section>
+            <section id="contentRight">
+                <div id="cRight">
+                    <div id="data" class="demo" ></div>
+                    <div id="populate"></div>
+                </div>
+            </section>
+          
+            </div>
+            <footer>
+               
+            </footer>
+        </div>

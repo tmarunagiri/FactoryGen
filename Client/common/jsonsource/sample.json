@@ -1,0 +1,790 @@
+{
+  "dentalClaimBasicInfo": {
+    "serviceAuthIndicator": null,
+    "voidReplacementIndicator": null,
+    "submitterID": "MAHESH3",
+    "claimResubmissionInformation": {
+      "resubmissionTypeCode": null,
+      "tcnToVoidReplace": null
+    },
+    "providerInformation": {
+      "nationalProviderId": null,
+      "atypicalId": null,
+      "taxonomyCode": null,
+      "taxId": null,
+      "ssn": "123456789",
+      "additionalBillingProviderInformation": {
+        "currencyCode": "c1",
+        "entityQualifier": "2",
+        "payToAddressIndicator": false,
+        "renderingProviderIndicator": false,
+        "name": {
+          "firstName": "df",
+          "lastName": "df",
+          "mi": "df",
+          "prefix": null,
+          "suffix": null
+        },
+        "address": {
+          "addressLine1": "df",
+          "addressLine2": "df",
+          "city": "sds",
+          "state": "AL",
+          "zip": "12345",
+          "plusFour": "1234",
+          "country": "CCC",
+          "subdivisionCode": "222"
+        },
+        "secondaryIds": {
+          "stateLiscenceNumber": "3",
+          "upinNumber": "3",
+          "commercialNumber": null,
+          "locationNumber": null
+        },
+        "contact1": {
+          "name": "mahesh",
+          "phone": "1234512345",
+          "extension": "12345",
+          "fax": "1234512345",
+          "email": "mahi@gmail.com"
+        },
+        "contact2": {
+          "name": "guntuka",
+          "phone": "1234512345",
+          "extension": "12345",
+          "fax": "1234512345",
+          "email": "mahi@yahoo.com"
+        },
+        "paytoAddress": {
+          "entityQalifier": "2",
+          "address": {
+            "addressLine1": "as",
+            "addressLine2": "as",
+            "city": "as",
+            "state": "AL",
+            "zip": "12345",
+            "plusFour": "1234",
+            "country": "FFF",
+            "subdivisionCode": "222"
+          }
+        },
+        "renderingProvider": {
+          "providerIdVO": {
+            "medicaidProviderID": "3",
+            "nationalProviderID": "3",
+            "taxnomyCode": "33",
+            "locationNumber": null
+          },
+          "additionalProviderInfo": {
+            "entityQualifier": "2",
+            "name": {
+              "firstName": "df",
+              "lastName": "dff",
+              "mi": "df",
+              "prefix": null,
+              "suffix": "MD"
+            },
+            "secondaryIds": {
+              "stateLiscenceNumber": "3",
+              "upinNumber": "33",
+              "commercialNumber": null,
+              "locationNumber": null
+            }
+          }
+        }
+      }
+    },
+    "memberInformation": {
+      "memberId": "MAHESH123",
+      "gender": "F",
+      "ssn": "123451234",
+      "propertyCasualityNumber": "2",
+      "dateOfBirth": "07/13/2015",
+      "otherInsuranceInformation": true,
+      "name": {
+        "firstName": "df",
+        "lastName": "mahesh",
+        "mi": "dfdf",
+        "prefix": null,
+        "suffix": "MD"
+      },
+      "memberAddress": {
+        "addressLine1": "sds",
+        "addressLine2": "sd",
+        "city": "d",
+        "state": "AL",
+        "zip": "12345",
+        "plusFour": "1234",
+        "country": "FFF",
+        "subdivisionCode": "333"
+      },
+      "subscriberInformation": {
+        "resposibilitySequenceCode": "P",
+        "policyOrGroupNumber": "sd",
+        "insuranceTypeCode": "41",
+        "planName": "sd",
+        "claimFilingCode": "AM"
+      }
+    },
+    "claimInformation": {
+      "claimData": {
+        "patientAccount": "dd22",
+        "serviceDate": "07/13/2015",
+        "placeOfService": "42",
+        "benefitsAssignmentCertification": "N",
+        "assignmentCode": "A",
+        "releaseOfInfo": "I"
+      },
+      "additionalClaimData": {
+        "applianceDate": "07/13/2015",
+        "delayReasonCode": "10",
+        "specialProgramTypeCode": "05",
+        "predeterminationBenefitIdNumber": "2",
+        "serviceAuthorizationExceptionCode": "4",
+        "patientPaidAmount": "2.00",
+        "repricedClaimNumber": "2",
+        "adjustedRepricedClaim": "2",
+        "repricerReceivedDate": "07/13/2015"
+      },
+      "seviceAuth": {
+        "serviceAuthorization": null,
+        "referral": null
+      },
+      "claimNote": {
+        "note": "claims note"
+      },
+      "attachmentIndicator": true,
+      "attachment": [
+        {
+          "sequenceNumber": null,
+          "attachmentType": "DA",
+          "deliveryMethod": "AA",
+          "attachmentControl": "2",
+          "typeAttachmentDesc": "Dental Models",
+          "deliveryMethodDesc": "Available on Request"
+        }
+      ],
+      "isThisClaimAccidentRelated": true,
+      "accidentRelatedInformation": {
+        "relatedCause1": "AP",
+        "relatedCause2": null,
+        "autoAccidentState": "AL",
+        "autoAccidentCountry": "EEE",
+        "accidentDate": "07/13/2015"
+      },
+      "serviceAuth": {
+        "serviceAuthorization": "2",
+        "referral": "2"
+      }
+    },
+    "basicLineItemInformation": {
+      "serviceLineItems": [
+        {
+          "procedureCode": "PC",
+          "sequenceNumber": 1,
+          "lineSpecificInfoIndicator": true,
+          "diagnosisPointers": {
+            "diagnosisPointer1": null,
+            "diagnosisPointer2": null,
+            "diagnosisPointer3": null,
+            "diagnosisPointer4": null,
+            "procedureDescription": "PD",
+            "lineItemChargeAmount": "2.00",
+            "placeOfService": "25"
+          },
+          "modifiers": {
+            "modifier1": "M1",
+            "modifier2": "M1",
+            "modifier3": "M1",
+            "modifier4": "M1"
+          },
+          "oralCavityDesignation": {
+            "oralCavityDesignation1": "OC1",
+            "oralCavityDesignation2": "OC1",
+            "oralCavityDesignation3": "OC1",
+            "oralCavityDesignation4": "OC1",
+            "oralCavityDesignation5": "OC1",
+            "procedureCount": "25",
+            "serviceDate": "07/13/2015",
+            "orthodonticBandingDate": "07/13/2015"
+          },
+          "serviceAuthorization": {
+            "serviceAuthorization": "2",
+            "referral": "2"
+          },
+          "additionalServiceLineInformation": {
+            "replacementDate": "07/13/2015",
+            "priorPlacementDate": "07/13/2015",
+            "lineItemControlNumber": "2",
+            "prosthesisCrown": "I",
+            "salesTaxAmount": "2.00",
+            "treatmentStartDate": "07/13/2015",
+            "treatmentCompletionDate": "07/13/2015"
+          },
+          "toothInformation": [
+            {
+              "toothNumber": "2",
+              "toothSurface1": "B",
+              "toothSurface1Desc": "Buccal",
+              "toothSurface2Desc": null,
+              "toothSurface3Desc": null,
+              "toothSurface4Desc": null,
+              "toothSurface5Desc": null
+            }
+          ],
+          "otherServiceInformation": {
+            "servicelineInformation": {
+              "miscellaneousLineInformation": {
+                "repricedClaimNumber": "12",
+                "adjustedRepricedClaimNumber": "12",
+                "predeterminationBenefitIdNumber": "12"
+              },
+              "contractInformation": {
+                "contractTypeCode": "05",
+                "contractAmount": "1.00",
+                "contractPercent": "1.00",
+                "contractCode": "3",
+                "termsDiscPercent": "1.00",
+                "contractVersionID": "11"
+              },
+              "fileInformation": {
+                "fileInformation1": "OC1",
+                "fileInformation2": "OC1",
+                "fileInformation3": "OC1",
+                "fileInformation4": "OC1",
+                "fileInformation5": "OC1",
+                "fileInformation6": "OC1",
+                "fileInformation7": "OC1",
+                "fileInformation8": "OC1",
+                "fileInformation9": "OC1",
+                "fileInformation10": "OC1"
+              },
+              "claimsPricing": {
+                "pricingMethodologyCode": "04",
+                "allowedAmount": "2.00",
+                "savingsAmount": "2.00",
+                "organizationIdentifier": "2",
+                "perDiemOrFlatRateAmount": null,
+                "approvedDRGAmount": null,
+                "rejectionReasonCode": "2",
+                "policyComplianceCode": "2",
+                "exceptionCode": "22",
+                "approvedServiceUnitsCount": "2.00",
+                "hcpcsCode": "22"
+              },
+              "diagnosisPointers": {
+                "diagnosisPointer1": "1",
+                "diagnosisPointer2": "1",
+                "diagnosisPointer3": "2",
+                "diagnosisPointer4": "2",
+                "procedureDescription": null,
+                "lineItemChargeAmount": null,
+                "placeOfService": null
+              }
+            },
+            "servicelineProviderInformation": {
+              "renderingProviderInformation": {
+                "entityQualifier": "2",
+                "additionalRenderingProviderInformation": {
+                  "firstName": "sds",
+                  "lastName": "sds",
+                  "mi": "sd",
+                  "prefix": null,
+                  "suffix": "MD"
+                },
+                "renderingProviderInfo": {
+                  "medicaidProviderID": "2",
+                  "nationalProviderID": "2",
+                  "taxnomyCode": null,
+                  "locationNumber": "2",
+                  "taxonomyCode": "2"
+                }
+              },
+              "serviceFacilityInformation": {
+                "lastName": "sd",
+                "serviceFacility": {
+                  "medicaidProviderID": "2",
+                  "nationalProviderID": "2",
+                  "taxnomyCode": null,
+                  "locationNumber": "2"
+                },
+                "additionalServiceFacilityInformation": {
+                  "addressLine1": "sd",
+                  "addressLine2": "sd",
+                  "city": "sd",
+                  "state": "ID",
+                  "zip": "12345",
+                  "plusFour": null,
+                  "country": "DDD",
+                  "subdivisionCode": "333",
+                  "extension": "1234"
+                },
+                "secondaryIds": {
+                  "stateLiscenceNumber": null,
+                  "upinNumber": "3",
+                  "commercialNumber": null,
+                  "locationNumber": null
+                }
+              },
+              "assistantSurgeonInformation": {
+                "assistantSurgeonInfo": {
+                  "medicaidProviderID": "3",
+                  "nationalProviderID": "3",
+                  "taxnomyCode": null,
+                  "locationNumber": "3",
+                  "taxonomyCode": "3"
+                },
+                "additionalAssistantSurgeonInformation": {
+                  "firstName": "SD",
+                  "lastName": "SDSD",
+                  "mi": "SD",
+                  "prefix": null,
+                  "suffix": "MD"
+                }
+              },
+              "supervisingProvider": {
+                "supervisingProvId": {
+                  "medicaidProviderID": "2",
+                  "nationalProviderID": "2",
+                  "taxnomyCode": null,
+                  "locationNumber": "22"
+                },
+                "supervisingProvPerson": {
+                  "firstName": "sd",
+                  "lastName": "sd",
+                  "mi": "sd",
+                  "prefix": null,
+                  "suffix": "MD"
+                },
+                "supervisingProvSecondaryId": {
+                  "stateLiscenceNumber": "2",
+                  "upinNumber": "2",
+                  "commercialNumber": null,
+                  "locationNumber": null
+                }
+              }
+            },
+            "otherpayerServicelineInformation": [
+              {
+                "serviceLineAdjudication": {
+                  "sequenceNumber": 1,
+                  "otherPayerPrimaryId": "sd",
+                  "serviceLinePaidAmount": "2.00",
+                  "adjudicatedOrPayDate": "07/13/2015",
+                  "paidServiceUnitCount": "2",
+                  "procedureQualifier": "AD",
+                  "procedureCode": "2",
+                  "procedureCodeDescription": "sd",
+                  "bundledLineNumber": "2",
+                  "procedureCodeModifiers1": "2",
+                  "procedureCodeModifiers2": "22",
+                  "procedureCodeModifiers3": "2",
+                  "procedureCodeModifiers4": "2",
+                  "remainingPatientLiability": "2.00",
+                  "addLineLevelAdjustments": [
+                    {
+                      "sequenceNumber": 1,
+                      "claimAdjustmentGroupCode": "CO",
+                      "reasonCode": "22",
+                      "amount": "2.00",
+                      "quantity": "2.00000",
+                      "reasonCode2": "2",
+                      "amount2": "2.00",
+                      "quantity2": "2.00000",
+                      "reasonCode3": null,
+                      "amount3": null,
+                      "quantity3": null,
+                      "reasonCode4": null,
+                      "amount4": null,
+                      "quantity4": null,
+                      "reasonCode5": null,
+                      "amount5": null,
+                      "quantity5": null,
+                      "reasonCode6": null,
+                      "amount6": null,
+                      "quantity6": null,
+                      "claimAmount": "$2.00"
+                    }
+                  ]
+                },
+                "otherPayerRenderingProvider": {
+                  "stateLiscenceNumber": null,
+                  "upinNumber": "2",
+                  "commercialNumber": "2",
+                  "locationNumber": "2",
+                  "stateLicenseNumber": "2"
+                },
+                "otherPayerServiceFacilityInformation": {
+                  "stateLiscenceNumber": null,
+                  "upinNumber": null,
+                  "commercialNumber": "22",
+                  "locationNumber": "2"
+                },
+                "otherPayerAssistantSurgeonProvider": {
+                  "stateLiscenceNumber": null,
+                  "upinNumber": "22",
+                  "commercialNumber": "2",
+                  "locationNumber": "2",
+                  "stateLicenseNumber": "2"
+                },
+                "otherPayerSupervisingProvider": {
+                  "stateLiscenceNumber": null,
+                  "upinNumber": "22",
+                  "commercialNumber": "2",
+                  "locationNumber": "2",
+                  "stateLicenseNumber": "2"
+                },
+                "otherPayerPredeterminationId": {
+                  "otherPayerPredeterminationIdNumber": "2"
+                },
+                "otherPayerServiceAuthorization": {
+                  "serviceAuthorization": "22",
+                  "referral": null
+                },
+                "sequenceNumber": 1,
+                "otherPayerPrimaryId": "sd",
+                "procedureQualifier": "AD",
+                "paidServiceUnitCount": "2",
+                "serviceLinePaidAmount": "2.00",
+                "adjudicatedOrPayDate": "07/13/2015",
+                "paidAmount": "$2.00"
+              }
+            ]
+          },
+          "modifier1": "M1",
+          "modifier2": "M1",
+          "modifier3": "M1",
+          "modifier4": "M1",
+          "lineItemChargeAmount": "$2.00",
+          "oralCavityDesignation1": "OC1",
+          "oralCavityDesignation2": "OC1",
+          "oralCavityDesignation3": "OC1",
+          "oralCavityDesignation4": "OC1",
+          "oralCavityDesignation5": "OC1",
+          "units": "25",
+          "serviceDate": "07/13/2015",
+          "orthodonticBandingDate": "07/13/2015",
+          "surfaceDate": ""
+        }
+      ]
+    }
+  },
+  "otherClaimInfo": {
+    "otherClaimClaimInfo": {
+      "orthoTreatementMonthsCount": "3",
+      "orthoTreatementRemMonthsCount": "3",
+      "orthoTreatementIndicator": true,
+      "newToothStatus": [
+        {
+          "toothNumber": "3",
+          "toothStatus": "M",
+          "toothStatusDesc": "Missing",
+          "newrecord": true
+        }
+      ],
+      "contractInfo": {
+        "contractTypeCode": "05",
+        "contractAmount": "3.00",
+        "contractPercent": "3.00",
+        "contractCode": "3",
+        "termsDiscPercent": null,
+        "contractVersionID": "33"
+      },
+      "fileInfo": {
+        "fileInformation1": "sd",
+        "fileInformation2": "sd",
+        "fileInformation3": "sds",
+        "fileInformation4": "d",
+        "fileInformation5": "sds",
+        "fileInformation6": "d",
+        "fileInformation7": "sds",
+        "fileInformation8": "ds",
+        "fileInformation9": "dsd",
+        "fileInformation10": "sd"
+      },
+      "claimPricing": {
+        "pricingMethodologyCode": "14",
+        "allowedAmount": "3.00",
+        "savingsAmount": "3.00",
+        "organizationIdentifier": "3",
+        "perDiemOrFlatRateAmount": "3.0000",
+        "approvedDRGAmount": "3",
+        "rejectionReasonCode": "33",
+        "policyComplianceCode": "3",
+        "exceptionCode": "3",
+        "approvedServiceUnitsCount": null,
+        "hcpcsCode": null
+      }
+    },
+    "claimProviderInfo": {
+      "serviceFacilityInfo": {
+        "lastName": "sd",
+        "serviceFacility": {
+          "medicaidProviderID": "22",
+          "nationalProviderID": "2",
+          "taxnomyCode": null,
+          "locationNumber": "2"
+        },
+        "serviceFacilityAddress": {
+          "addressLine1": "sd",
+          "addressLine2": "as",
+          "city": "sd",
+          "state": "AL",
+          "zip": "12345",
+          "plusFour": "1234",
+          "country": "EEE",
+          "subdivisionCode": "111"
+        },
+        "serviceFacilitySecondaryId": {
+          "stateLiscenceNumber": "12",
+          "upinNumber": null,
+          "commercialNumber": null,
+          "locationNumber": null
+        }
+      },
+      "referringProvider": {
+        "referringProviderID": {
+          "medicaidProviderID": "2",
+          "nationalProviderID": "2",
+          "taxnomyCode": null,
+          "locationNumber": null,
+          "taxonomyCode": "2"
+        },
+        "referringPerson": {
+          "firstName": "sd",
+          "lastName": "ssd",
+          "mi": "sd",
+          "prefix": null,
+          "suffix": null
+        },
+        "referringSecondary": {
+          "stateLiscenceNumber": "2",
+          "upinNumber": "2",
+          "commercialNumber": null,
+          "locationNumber": null
+        }
+      },
+      "primaryCareProv": {
+        "primaryCareId": {
+          "medicaidProviderID": "2",
+          "nationalProviderID": "22",
+          "taxnomyCode": null,
+          "locationNumber": null
+        },
+        "primaryCarePerson": {
+          "firstName": "as",
+          "lastName": "s",
+          "mi": "asa",
+          "prefix": null,
+          "suffix": "MD"
+        },
+        "secondaryPrimaryCare": {
+          "stateLiscenceNumber": "2",
+          "upinNumber": "2",
+          "commercialNumber": null,
+          "locationNumber": null
+        }
+      },
+      "assistantSurgeon": {
+        "assistantSurgeon": {
+          "medicaidProviderID": "2",
+          "nationalProviderID": "22",
+          "taxnomyCode": null,
+          "locationNumber": "2",
+          "taxonomyCode": "2"
+        },
+        "surgeonPerson": {
+          "firstName": "sd",
+          "lastName": "sd",
+          "mi": null,
+          "prefix": null,
+          "suffix": "MD",
+          "miName": "sd"
+        },
+        "surgeonSecondaryId": {
+          "stateLiscenceNumber": "2",
+          "upinNumber": "2",
+          "commercialNumber": null,
+          "locationNumber": null
+        }
+      },
+      "supervisingProvider": {
+        "supervisingProvId": {
+          "medicaidProviderID": "2",
+          "nationalProviderID": "22",
+          "taxnomyCode": null,
+          "locationNumber": null
+        },
+        "supervisingProvPerson": {
+          "firstName": "sd",
+          "lastName": "sd",
+          "mi": "sd",
+          "prefix": null,
+          "suffix": "MD"
+        },
+        "supervisingProvSecondaryId": {
+          "stateLiscenceNumber": "2",
+          "upinNumber": "2",
+          "commercialNumber": null,
+          "locationNumber": null
+        }
+      }
+    },
+    "coordinationOfBenefits": {
+      "otherInsuranceVOList": [
+        {
+          "otherSubscriber": {
+            "subscriberId": "sd",
+            "entityQualifier": "2",
+            "ssn": "123451234",
+            "releaseOfInfoCode": "I",
+            "otherSubscriberPerson": {
+              "firstName": "sd",
+              "lastName": "sd",
+              "mi": "sd",
+              "prefix": null,
+              "suffix": "MD"
+            },
+            "othersubscriberAddress": {
+              "addressLine1": "sd",
+              "addressLine2": "sd",
+              "city": "sd",
+              "state": "AZ",
+              "zip": "12345",
+              "plusFour": "1234",
+              "country": "EEE",
+              "subdivisionCode": "333"
+            },
+            "otherSubscriberInfo": {
+              "realationToIndividual": "20",
+              "claimFilingCode": "CI",
+              "groupOrPolicy": "df",
+              "payerRspnsbltySqncCode": "P",
+              "planName": "sd",
+              "insuranceTypeCode": "41"
+            },
+            "medicareOutpatientAdjudicationInfo": {
+              "reimbursmentRate": "2.00",
+              "hcpcsPayableAmount": "2.00",
+              "remarkCode1": "2",
+              "remarkCode2": "2",
+              "remarkCode3": "2",
+              "remarkCode4": "2",
+              "remarkCode5": "2",
+              "professaionalComponentAmt": "22.00"
+            }
+          },
+          "otherPayer": {
+            "payerOrCarrierIDQualifier": "XV",
+            "PayerOrCarrierId": "sd",
+            "payerOrInsuranceOrgName": "sd",
+            "otherPayerAddress": {
+              "addressLine1": "sd",
+              "addressLine2": "sdsdsd",
+              "city": "sd",
+              "state": "AL",
+              "zip": "12345",
+              "plusFour": "1234",
+              "country": "FDF",
+              "subdivisionCode": "333"
+            },
+            "adjudicationDate": "07/13/2015",
+            "authorization": "2",
+            "referral": "2",
+            "claimControlNumber": "2",
+            "payerClaimAdjustment": true,
+            "payerId": "3",
+            "employerIdentificatioNumb": "3",
+            "claimOfficeNumber": "3",
+            "naicCode": "3"
+          },
+          "cobMonetaryAmounts": {
+            "payerPaidAmt": "3.00",
+            "remainingPatientLiabilityAmt": "3.00",
+            "NonNonCoveredChargeAmt": "3.00"
+          },
+          "claimLevelAdjustments": [
+            {
+              "sequenceNumber": 1,
+              "claimAdjustmentGroupCode": "CO",
+              "reasonCode": "3",
+              "amount": "33.00",
+              "quantity": "3.00000",
+              "reasonCode2": "33",
+              "amount2": "3.00",
+              "quantity2": "3.00000",
+              "reasonCode3": null,
+              "amount3": null,
+              "quantity3": null,
+              "reasonCode4": null,
+              "amount4": null,
+              "quantity4": null,
+              "reasonCode5": null,
+              "amount5": null,
+              "quantity5": null,
+              "reasonCode6": null,
+              "amount6": null,
+              "quantity6": null,
+              "claimLevelAmount": "$33.00"
+            }
+          ],
+          "otherPayerRenderringProvider": {
+            "stateLiscenceNumber": "2",
+            "upinNumber": "2",
+            "commercialNumber": "2",
+            "locationNumber": "2"
+          },
+          "otherPayerServiceFacilityProvider": {
+            "stateLiscenceNumber": "2",
+            "upinNumber": null,
+            "commercialNumber": "2",
+            "locationNumber": "2"
+          },
+          "OtherPayerReferringProvider": {
+            "stateLiscenceNumber": "2",
+            "upinNumber": "22",
+            "commercialNumber": "2",
+            "locationNumber": null
+          },
+          "otherPayerPrimaryCare": {
+            "stateLiscenceNumber": "2",
+            "upinNumber": "2",
+            "commercialNumber": "2",
+            "locationNumber": null
+          },
+          "assistantSurgeon": {
+            "entityQualifier": "2",
+            "sugeonProvider": {
+              "stateLiscenceNumber": "2",
+              "upinNumber": "2",
+              "commercialNumber": "2",
+              "locationNumber": "2"
+            }
+          },
+          "otherPayerSupervisingProvider": {
+            "stateLiscenceNumber": "2",
+            "upinNumber": "2",
+            "commercialNumber": "2",
+            "locationNumber": "22"
+          },
+          "otherPayerBillingProvider": {
+            "entityQualifier": "2",
+            "billingProvider": {
+              "stateLiscenceNumber": "2",
+              "upinNumber": null,
+              "commercialNumber": null,
+              "locationNumber": "2"
+            }
+          },
+          "subscriberId": "sd",
+          "PayerOrCarrierId": "sd",
+          "payerOrInsuranceOrgName": "sd",
+          "payerClaimAdjustment": true,
+          "payerPaidAmt": "3.00",
+          "sequenceNumber": 1,
+          "payerPaidAmount": "$3.00"
+        }
+      ]
+    }
+  }
+}

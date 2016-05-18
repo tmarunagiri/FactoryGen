@@ -1,0 +1,28 @@
+{
+  "name": "AngularFactory",
+  "version": "1.0.0",
+  "description": "Angular app to develop model classess",
+  "main": "server.js",
+  "dependencies": {
+    "angular": "^1.5.5",
+    "angular-route": "^1.5.5",
+    "body-parser": "^1.15.0",
+    "bootstrap": "^3.3.6",
+    "cookie-parser": "^1.4.1",
+    "easy-zip": "0.0.4",
+    "express": "^4.13.4",
+    "jquery": "^2.2.3",
+    "jstree": "^3.3.0",
+    "mkdirpd": "^0.1.8",
+    "multer": "^1.1.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.1"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Arunagiri TM",
+  "license": "CTS"
+}
