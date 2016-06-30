@@ -1,0 +1,29 @@
+{
+  "otherClaimInfo": {
+    "otherClaimClaimInfo": {
+      "orthoTreatementMonthsCount": "3",
+      "orthoTreatementRemMonthsCount": "3",
+      "orthoTreatementIndicator": true,
+      "newToothStatus": [
+        {
+          "toothNumber": "3",
+          "toothStatus": "M",
+          "toothStatusDesc": "Missing",
+          "newrecord": true
+        },
+		 {
+          "tooth": "3",
+          "tooths": "M",
+          "toothStatusDesc": "Missing",
+          "newrecord": true
+        },
+		   {
+          "toothNumber": "3",
+          "toothStatus": "M",
+          "toothStatusDesc": "Missing",
+          "newrecord": true
+        }
+      ]
+    }
+  }
+}
